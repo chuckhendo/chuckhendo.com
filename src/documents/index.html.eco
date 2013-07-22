@@ -17,6 +17,6 @@ title: 'Home'
 			<% i = 0 %>
 		<% end %>
 		<% i++ %>
-		<a href="<%= document.url %>" class="site span4"><div class="in1"><div class="in2"<% if document.img: %> style="background-image: url(img/sites/<%= document.img %>)"<% end %>><h2><%= document.title %></h2></div></div></a></li>
+		<a href="<%= document.url %>" class="site span4"><div class="in1"><div class="in2"<% if document.img: %> style="background-image: url(img/sites/<%= document.img %>)"<% end %>><% if document.vid: %><video src="videos/<%= document.vid %>" loop></video><% end %><h2><%= document.title %></h2></div></div></a></li>
 	<% end %>
 </nav>

@@ -3,7 +3,7 @@
 	<title>ChuckHendo.com - The personal website of web developer Carl Henderson</title>
 	<link href="http://chuckhendo.github.io/chuckhendo.com//atom.xml" rel="self"/>
 	<link href="http://chuckhendo.github.io/chuckhendo.com/"/>
-	<updated>2013-07-22T03:13:29.499Z</updated>
+	<updated>2013-07-22T03:30:45.380Z</updated>
 	<id>http://chuckhendo.github.io/chuckhendo.com/</id>
 	<author>
 		<name>Carl Henderson</name>
@@ -14,7 +14,7 @@
 		<entry>
 			<title>Oliver Audio</title>
 			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/oliveraudio"/>
-			<updated>2013-07-22T02:41:29.000Z</updated>
+			<updated>2013-07-22T03:29:06.000Z</updated>
 			<id>http://chuckhendo.github.io/chuckhendo.com///posts/oliveraudio</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -114,13 +114,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -211,11 +249,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -229,13 +267,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -326,11 +402,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -344,13 +420,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -437,11 +551,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -459,13 +573,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -574,13 +726,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -667,11 +857,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -689,13 +879,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -782,11 +1010,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -804,13 +1032,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -897,11 +1163,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -919,13 +1185,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -1009,11 +1313,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -1031,13 +1335,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:13:29.499Z
+				This website was last updated at 2013-07-22T03:30:45.380Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
