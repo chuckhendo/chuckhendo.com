@@ -1,0 +1,65 @@
+@import 'nib'
+
+*
+	box-sizing border-box
+	-webkit-font-smoothing: antialiased
+
+a, a:link
+	cursor pointer
+
+body
+	padding-top 60px
+	background url(../img/moulin.png)
+
+table
+	tfoot, tbody
+		th
+			border-top 1px solid #DDD
+
+.sites
+	.row
+		height 450px
+		position relative
+		overflow hidden
+		margin-top: -100px
+
+	.row2 
+		margin-left 172px
+	.site
+		display block
+		height 740px
+		overflow hidden
+		visibility hidden
+		transform rotate(120deg)
+		cursor pointer
+		margin-top -150px
+
+		h2 
+			display block
+			position absolute
+			width 100%
+			text-align center
+			top 50%
+			background: rgba(0,0,0,0.9)
+			color #eee
+			font-size 30px
+			font-family: 'Pathway Gothic One', sans-serif;
+			text-transform: uppercase
+			border-top: 3px #ddd solid;
+			border-bottom: 3px #ddd solid;
+
+		.in1 
+			overflow hidden
+			width 100%
+			height 100%
+			transform rotate(-60deg)
+
+			.in2
+				width 100%
+				height 100%
+				background-repeat no-repeat
+				background-position 50%
+				background-image url(../img/500.jpeg)
+				background-size auto 80%
+				visibility visible
+				transform rotate(-60deg)

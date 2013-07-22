@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>ChuckHendo.com - The personal website of web developer Carl Henderson</title>
+	<link href="http://website.com/atom.xml" rel="self"/>
+	<link href="http://website.com"/>
+	<updated>2013-07-22T03:01:11.826Z</updated>
+	<id>http://website.com</id>
+	<author>
+		<name>Carl Henderson</name>
+		<email>chuckhendo@gmail.com</email>
+	</author>
+
+	
+		<entry>
+			<title>Oliver Audio</title>
+			<link href="http://website.com//posts/oliveraudio"/>
+			<updated>2013-07-22T02:41:29.000Z</updated>
+			<id>http://website.com//posts/oliveraudio</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Oliver Audio | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Oliver Audio&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Moore Farms Botanical Gardens</title>
+			<link href="http://website.com//posts/moorefarms"/>
+			<updated>2013-07-22T02:18:43.000Z</updated>
+			<id>http://website.com//posts/moorefarms</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Moore Farms Botanical Gardens | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Moore Farms Botanical Gardens&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Thomas Creek Brewery</title>
+			<link href="http://website.com//posts/thomascreek"/>
+			<updated>2013-07-22T01:45:40.000Z</updated>
+			<id>http://website.com//posts/thomascreek</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Thomas Creek Brewery | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Thomas Creek Brewery&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Black Pearl Farms</title>
+			<link href="http://website.com//posts/blackpearl"/>
+			<updated>2013-07-22T01:44:56.000Z</updated>
+			<id>http://website.com//posts/blackpearl</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Black Pearl Farms | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Black Pearl Farms&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Moore Farms Botanical Garden Map</title>
+			<link href="http://website.com//posts/moorefarms-map"/>
+			<updated>2013-07-22T01:43:48.000Z</updated>
+			<id>http://website.com//posts/moorefarms-map</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Moore Farms Botanical Garden Map | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Moore Farms Botanical Garden Map&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Homeowners Mortgage</title>
+			<link href="http://website.com//posts/homeownersmtg"/>
+			<updated>2013-07-22T01:42:53.000Z</updated>
+			<id>http://website.com//posts/homeownersmtg</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Homeowners Mortgage | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Homeowners Mortgage&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Fresh on the Menu Landing Page</title>
+			<link href="http://website.com//posts/fotmlandingpage"/>
+			<updated>2013-07-22T01:42:12.000Z</updated>
+			<id>http://website.com//posts/fotmlandingpage</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Fresh on the Menu Landing Page | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Fresh on the Menu Landing Page&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Fresh on the Menu App</title>
+			<link href="http://website.com//posts/freshonthemenuapp"/>
+			<updated>2013-07-22T01:41:51.000Z</updated>
+			<id>http://website.com//posts/freshonthemenuapp</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Fresh on the Menu App | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Fresh on the Menu App&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;This is a hello **blog post**&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/ahealthysc&quot;&gt;AHealthySC&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>AHealthySC</title>
+			<link href="http://website.com//posts/ahealthysc"/>
+			<updated>2013-07-22T01:41:17.000Z</updated>
+			<id>http://website.com//posts/ahealthysc</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;AHealthySC | ChuckHendo.com - The personal website of web developer Carl Henderson&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;The personal website of Columbia, SC web developer Carl Henderson&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Carl Henderson&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.45.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;AHealthySC&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+	&lt;section id=&quot;related&quot;&gt;
+		&lt;h3&gt;Related Posts&lt;/h3&gt;
+		&lt;nav class=&quot;linklist&quot;&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/blackpearl&quot;&gt;Black Pearl Farms&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/fotmlandingpage&quot;&gt;Fresh on the Menu Landing Page&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/nav&gt;
+	&lt;/section&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				This website was last updated at 2013-07-22T03:01:11.826Z
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
