@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>ChuckHendo.com - The personal website of web developer Carl Henderson</title>
-	<link href="http://website.com/atom.xml" rel="self"/>
-	<link href="http://website.com"/>
-	<updated>2013-07-22T03:01:11.826Z</updated>
-	<id>http://website.com</id>
+	<link href="http://chuckhendo.github.io/chuckhendo.com//atom.xml" rel="self"/>
+	<link href="http://chuckhendo.github.io/chuckhendo.com/"/>
+	<updated>2013-07-22T03:06:54.108Z</updated>
+	<id>http://chuckhendo.github.io/chuckhendo.com/</id>
 	<author>
 		<name>Carl Henderson</name>
 		<email>chuckhendo@gmail.com</email>
@@ -13,9 +13,9 @@
 	
 		<entry>
 			<title>Oliver Audio</title>
-			<link href="http://website.com//posts/oliveraudio"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/oliveraudio"/>
 			<updated>2013-07-22T02:41:29.000Z</updated>
-			<id>http://website.com//posts/oliveraudio</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/oliveraudio</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -53,7 +53,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -88,6 +88,10 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
 				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
@@ -96,15 +100,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
 			
 		&lt;/nav&gt;
 	&lt;/section&gt;
@@ -114,13 +114,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -128,9 +166,9 @@
 	
 		<entry>
 			<title>Moore Farms Botanical Gardens</title>
-			<link href="http://website.com//posts/moorefarms"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/moorefarms"/>
 			<updated>2013-07-22T02:18:43.000Z</updated>
-			<id>http://website.com//posts/moorefarms</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/moorefarms</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -168,7 +206,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -203,6 +241,10 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
 				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
@@ -211,15 +253,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
 		&lt;/nav&gt;
 	&lt;/section&gt;
@@ -229,13 +267,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -243,9 +319,9 @@
 	
 		<entry>
 			<title>Thomas Creek Brewery</title>
-			<link href="http://website.com//posts/thomascreek"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/thomascreek"/>
 			<updated>2013-07-22T01:45:40.000Z</updated>
-			<id>http://website.com//posts/thomascreek</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/thomascreek</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -283,7 +359,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -318,15 +394,15 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
 				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -344,13 +420,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -358,9 +472,9 @@
 	
 		<entry>
 			<title>Black Pearl Farms</title>
-			<link href="http://website.com//posts/blackpearl"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/blackpearl"/>
 			<updated>2013-07-22T01:44:56.000Z</updated>
-			<id>http://website.com//posts/blackpearl</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/blackpearl</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -398,7 +512,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -429,19 +543,15 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
 				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -451,6 +561,10 @@
 				&amp;raquo;
 				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
 		&lt;/nav&gt;
 	&lt;/section&gt;
 	
@@ -459,13 +573,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -473,9 +625,9 @@
 	
 		<entry>
 			<title>Moore Farms Botanical Garden Map</title>
-			<link href="http://website.com//posts/moorefarms-map"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/moorefarms-map"/>
 			<updated>2013-07-22T01:43:48.000Z</updated>
-			<id>http://website.com//posts/moorefarms-map</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/moorefarms-map</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -513,7 +665,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -548,15 +700,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
 				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -566,6 +714,10 @@
 				&amp;raquo;
 				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
 		&lt;/nav&gt;
 	&lt;/section&gt;
 	
@@ -574,13 +726,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -588,9 +778,9 @@
 	
 		<entry>
 			<title>Homeowners Mortgage</title>
-			<link href="http://website.com//posts/homeownersmtg"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/homeownersmtg"/>
 			<updated>2013-07-22T01:42:53.000Z</updated>
-			<id>http://website.com//posts/homeownersmtg</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/homeownersmtg</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -628,7 +818,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -663,15 +853,11 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
 				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -681,6 +867,10 @@
 				&amp;raquo;
 				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
 		&lt;/nav&gt;
 	&lt;/section&gt;
 	
@@ -689,13 +879,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -703,9 +931,9 @@
 	
 		<entry>
 			<title>Fresh on the Menu Landing Page</title>
-			<link href="http://website.com//posts/fotmlandingpage"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/fotmlandingpage"/>
 			<updated>2013-07-22T01:42:12.000Z</updated>
-			<id>http://website.com//posts/fotmlandingpage</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/fotmlandingpage</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -743,7 +971,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -774,19 +1002,15 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
 				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -796,6 +1020,10 @@
 				&amp;raquo;
 				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
 		&lt;/nav&gt;
 	&lt;/section&gt;
 	
@@ -804,13 +1032,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -818,9 +1084,9 @@
 	
 		<entry>
 			<title>Fresh on the Menu App</title>
-			<link href="http://website.com//posts/freshonthemenuapp"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/freshonthemenuapp"/>
 			<updated>2013-07-22T01:41:51.000Z</updated>
-			<id>http://website.com//posts/freshonthemenuapp</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/freshonthemenuapp</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -858,7 +1124,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -901,15 +1167,15 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
-				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
 				&lt;a href=&quot;/posts/moorefarms&quot;&gt;Moore Farms Botanical Gardens&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
 			
 		&lt;/nav&gt;
 	&lt;/section&gt;
@@ -919,13 +1185,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -933,9 +1237,9 @@
 	
 		<entry>
 			<title>AHealthySC</title>
-			<link href="http://website.com//posts/ahealthysc"/>
+			<link href="http://chuckhendo.github.io/chuckhendo.com///posts/ahealthysc"/>
 			<updated>2013-07-22T01:41:17.000Z</updated>
-			<id>http://website.com//posts/ahealthysc</id>
+			<id>http://chuckhendo.github.io/chuckhendo.com///posts/ahealthysc</id>
 			<content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -973,7 +1277,7 @@
 
 	&lt;!-- Styles --&gt;
 	&lt;link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'&gt;
-	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
@@ -1001,19 +1305,15 @@
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
+				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
 				&lt;a href=&quot;/posts/homeownersmtg&quot;&gt;Homeowners Mortgage&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
 				&lt;a href=&quot;/posts/moorefarms-map&quot;&gt;Moore Farms Botanical Garden Map&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/freshonthemenuapp&quot;&gt;Fresh on the Menu App&lt;/a&gt;&lt;/li&gt;
-			
-				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
-				&amp;raquo;
-				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
 			
 				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
 				&amp;raquo;
@@ -1023,6 +1323,10 @@
 				&amp;raquo;
 				&lt;a href=&quot;/posts/oliveraudio&quot;&gt;Oliver Audio&lt;/a&gt;&lt;/li&gt;
 			
+				&lt;li&gt;&lt;span&gt;Sun Jul 21 2013&lt;/span&gt;
+				&amp;raquo;
+				&lt;a href=&quot;/posts/thomascreek&quot;&gt;Thomas Creek Brewery&lt;/a&gt;&lt;/li&gt;
+			
 		&lt;/nav&gt;
 	&lt;/section&gt;
 	
@@ -1031,13 +1335,51 @@
 		&lt;footer&gt;
 			&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Company 2013&lt;/p&gt;
 			&lt;p class=&quot;pull-right&quot;&gt;
-				This website was last updated at 2013-07-22T03:01:11.826Z
+				This website was last updated at 2013-07-22T03:06:54.108Z
 			&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
 
 	&lt;!-- Scripts --&gt;
-	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+	&lt;script &gt;(function(){
+	/* Did we just livereload? */
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		/* Inject socket.io into our page then listen once loaded */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		var readyStateCheckInterval = setInterval(function() {
+  if (document.readyState === &quot;complete&quot;) {
+    inject();
+    clearInterval(readyStateCheckInterval);
+  }
+}, 10);
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>

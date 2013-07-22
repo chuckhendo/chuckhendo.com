@@ -41,15 +41,15 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"styles/twitter-bootstrap.css"
+				"styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
-				"/scripts/script.js"
+				"scripts/script.js"
 			]
 
 
